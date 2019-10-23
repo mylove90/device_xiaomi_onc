@@ -23,3 +23,6 @@
 # Media Profile
 /system/etc/media_profiles_V1_0.xml    u:object_r:vendor_configs_file:s0
 /system/etc/media_codecs.xml    u:object_r:vendor_configs_file:s0
+
+# Prebuilt
+/system/etc/wifi/WCNSS_qcom_cfg.ini    u:object_r:vendor_configs_file:s0

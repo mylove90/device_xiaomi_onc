@@ -13,3 +13,6 @@ on init
     # Power HAL
     mount none /system/lib/hw/power.qcom.so /vendor/lib/hw/power.qcom.so bind
     mount none /system/lib64/hw/power.qcom.so /vendor/lib64/hw/power.qcom.so bind
+	
+	# Prebuilt
+	mount none /system/etc/wifi/WCNSS_qcom_cfg.ini /vendor/etc/wifi/WCNSS_qcom_cfg.ini bind
