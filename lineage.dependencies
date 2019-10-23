@@ -7,4 +7,8 @@
     "repository": "vendor_xiaomi_onc",
     "target_path": "vendor/xiaomi"
   }
+  {
+   "repository": "android_packages_resources_devicesettings",
+   "target_path": "packages/resources/devicesettings"
+ }
 ]
