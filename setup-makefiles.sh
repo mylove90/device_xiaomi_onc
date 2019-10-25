@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,10 +19,10 @@
 set -e
 
 # Required!
-export DEVICE=tissot
-export DEVICE_COMMON=msm8953-common
+export DEVICE=onc
+export DEVICE_COMMON=sdm632-common
 export VENDOR=xiaomi
 
-export DEVICE_BRINGUP_YEAR=2017
+export DEVICE_BRINGUP_YEAR=2019
 
 ./../../$VENDOR/$DEVICE_COMMON/setup-makefiles.sh $@
