@@ -28,7 +28,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := onc_defconfig
+TARGET_KERNEL_CONFIG := onclite-perf_defconfig
 
 # Partitions
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 24154979840
