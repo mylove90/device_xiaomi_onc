@@ -15,6 +15,7 @@
 
 # Inherit from common sdm632-common
 -include device/xiaomi/sdm632-common/BoardConfigCommon.mk
+-include device/qcom/common/common.mk
 
 DEVICE_PATH := device/xiaomi/onc
 
@@ -23,6 +24,7 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
+TARGET_USES_MKE2FS := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
@@ -46,7 +48,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 VENDOR_SECURITY_PATCH := 2019-05-05
 
 # Sepolicy
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+#BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/onc/BoardConfigVendor.mk
