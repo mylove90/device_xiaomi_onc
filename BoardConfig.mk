@@ -234,3 +234,8 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/onclite/BoardConfigVendor.mk
+
+#sdclang configuration 
+TARGET_USE_SDCLANG := true
+TARGET_USES_MKE2FS := true
+
